@@ -113,6 +113,12 @@ header {
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 0.2px;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.badge:hover {
+  opacity: 0.88;
 }
 
 .platforms {
